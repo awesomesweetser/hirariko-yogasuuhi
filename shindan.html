@@ -63,6 +63,27 @@
             button { padding: 12px; font-size: 1.1em; }
             select { padding: 8px; font-size: 1em; }
         }
+        /* 公式LINE誘導エリア */
+        .cta-area { text-align: center; margin-top: 40px; padding: 25px 15px; }
+        .cta-text { font-size: 1.05em; font-weight: bold; color: #555; margin-bottom: 18px; line-height: 1.7; }
+        .cta-button {
+            display: inline-block;
+            width: 100%;
+            max-width: 320px;
+            box-sizing: border-box;
+            padding: 18px 20px;
+            background: linear-gradient(135deg, #d9b8ff 0%, #b79cf2 50%, #9b8cf0 100%);
+            color: #fff;
+            font-size: 1.2em;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            box-shadow: 0 6px 16px rgba(155, 140, 240, 0.45);
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+            transition: transform 0.2s, box-shadow 0.2s;
+}
+.cta-button:hover { transform: translateY(-2px); box-shadow: 0 9px 20px rgba(155, 140, 240, 0.55); }
+.cta-button:active { transform: translateY(0); }
     </style>
 </head>
 <body>
@@ -109,6 +130,10 @@
         <div class="other-box">
             <h3 style="text-align:center; color:var(--brown); margin-top:0;">その他のポジション</h3>
             <div id="otherList"></div>
+        </div>
+        <div class="cta-area">
+            <p class="cta-text">さらに詳しい鑑定が気になる方は、こちらから</p>
+            <a href="https://lin.ee/Nu0ajWX" class="cta-button" target="_blank" rel="noopener noreferrer">今すぐチェックしてみる！</a>
         </div>
     </div>
 </div>
